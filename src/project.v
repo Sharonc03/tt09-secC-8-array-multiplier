@@ -15,7 +15,7 @@ module tt_um_C8_array_mult (
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
 );
-assign m = ui_in[3;0];
+assign m = ui_in[3:0];
 assign q = ui_in[3:0];
   
   wire [3:0] pp0, pp1,pp2,pp3;
