@@ -25,7 +25,7 @@ async def test_project(dut):
 
     dut._log.info("Test project behavior")
 
-    # Set the input values you want to test
+    # Set the input values you want to test #1
     # m = 4'b0001  q = 4'b0001  p_ref = 8'b00000001;
     dut.ui_in.value = 0b0001_0001
 
@@ -39,7 +39,7 @@ async def test_project(dut):
     # Keep testing the module by changing the input values, waiting for
     # one or more clock cycles, and asserting the expected output values.
     
-    # Set the input values you want to test
+    # Set the input values you want to test #2
     # m = 4'b0001  q = 4'b0001  p_ref = 8'b00000001;
     dut.ui_in.value = 0b0010_0010
 
@@ -50,7 +50,7 @@ async def test_project(dut):
     # Change it to match the actual expected output of your module:
     assert dut.uo_out.value == 4
 
-        # Set the input values you want to test
+    # Set the input values you want to test #3
     # m = 4'b0001  q = 4'b0001  p_ref = 8'b00000001;
     dut.ui_in.value = 0b0011_0011
 
