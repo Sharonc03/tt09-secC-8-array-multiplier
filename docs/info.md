@@ -9,12 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The project takes in two 4-bit numbers and performs multiplication to produce a product p. For each bit in the 4-bit inputs, partial product was calculated by performing bitwise AND between the two inputs, resulting in 4 different partial products. Then the partial product would be shifted according to their multiplication process by shifting them in bits. Lastly, the partial products would be summed up to find the 8-bit product.
 
 ## How to test
 
-Explain how to use your project
+We tested the code by creating a test bench giving it different inputs and the product it should get for each set of inputs after multiplication. If the result after running the code is the same as what was entered in the test bench, then the code would pass the test.
 
 ## External hardware
-
 none
